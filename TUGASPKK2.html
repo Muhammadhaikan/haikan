@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bakso Mern Meletup</title>
-    <link rel="stylesheet" href="TUGASPKK.css">
+    <link rel="icon" type="image/png" href="32x32_logo.png.png">
 </head>
 <style>
     * {
@@ -34,7 +34,7 @@ header {
 header nav ul {
     list-style-type: none;
     text-align: center;
-    font-size: large;
+    font-size: medium;
     
 }
 
@@ -45,95 +45,61 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-weight: bold;
     font-family:monaco;
+    text-shadow: 3px 3px 15px black ;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+
     
     
 }
-header nav ul li a :hover{
+header nav ul li a:hover{
     background-color:rgb(226, 18, 18) ;
 }
-header nav ul li img{
-    justify-content: right;
-    display: flex;
-    position: absolute;
-    top: 10px;
-    left: 130vh;
-    z-index: 2;
-}
-
 .hero {
-    padding: 20px 0;
+    padding: 20px 0;          /* Jarak padding tetap */
+    display: flex;             /* Aktifkan Flexbox */
+    flex-direction: column;    /* Susun elemen secara vertikal */
+    align-items: center;       /* Pusatkan elemen secara horizontal */
+    justify-content: center;   /* Pusatkan elemen secara vertikal */
+    height: 100vh;
 }
-
-.hero h1 {
-    font-size: 40px;
-    font-family: monaco;
-    margin-bottom: 30px;
-    font-weight: bold;
-    color: #ffffff;
-}
-
 .order-box {
     display: inline-block;
     text-decoration: none;
-    width: 550px;
+    width: 380px;
     height: 600px;
     text-align: center;
     background-color: rgb(162, 2, 2);
     padding: 20px;
-    border-radius: 10px;
-    color: rgb(197, 100, 44);
-    box-shadow: 5px 5px 30px black rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    color: rgb(255, 94, 0);
+    box-shadow: 10px 20px 30px ;
     background: none;
    
 }
-.order-box  :hover{
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
-
-}
-
 .order-box img {
-    width: 400px;
+    width: 350px;
     height: 200px;
     justify-content: center;
     object-fit: cover;
     border: 3px solid;
     color: rgb(240, 240, 240);
     margin-bottom: 20px;
-    border-radius: ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 50px rgba(0, 0, 0, 0.5); 
     
 }
 .order-box h2{
-    color: rgb(197, 197, 197);
+    color: rgb(216, 205, 205);
+    text-shadow: 5px 5px 15px;
 }
-
-
-.order-btn {
-    padding: 10px 20px;
-    height: 50px;
-    width: 200px;
-    text-shadow: 10px black ;
-    background-color: #ff7f00;
-    color: white;
-    border: 2px solid;
-    border-radius: 20px;
-    font-size: 16px;
-    margin: 20px;
-    font-family: monaco;
-    cursor: pointer;
-    background: none;
-}
-
-
-.order-btn:hover {
-    background-color: #d41919;
-}
-
 .hero1 {
     text-align: center;
+    align-items: center;
+    display: flex;
     padding: 130px 0;
 }
 
@@ -142,22 +108,6 @@ header nav ul li img{
     margin-bottom: 30px;
     font-weight: bold;
     color: #ffffff;
-}
-.footer {
-    text-align: center;
-    padding: 20px;
-    background-color: #333;
-    color: white;
-    background: none;
-}
-
-.footer p {
-    font-size: 18px;
-    text-align: left;
-}
-.footer img{
-    width: 50px;
-    
 }
 .fullscreen-bg {
     position: fixed;
@@ -172,27 +122,15 @@ header nav ul li img{
 .fullscreen-bg video {
     width: 100%;
     height: 100%;
-    object-fit: cover;
-  
+    object-fit: cover; 
 }
 @fullscreen-bg and (max-width:720px){
     .hero .order-box{
       width:100vw;  
     }
 }
-    .hero {
-        padding: 20px 0;
-      display: grid;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      flex: 1 0 80%;
-      place-items: center;
-      position: relative;
-    }
 </style>
-<body>
-   
+<body> 
     <div class="fullscreen-bg">
         <video loop muted autoplay poster="poster.jpg" class="fullscreen-bg video">
             <source src="bgsmoke.mp4" type="video/mp4">
@@ -201,32 +139,20 @@ header nav ul li img{
         <header>
         <nav>   
             <ul>
-                <li><img src="logo.png.png" style="height: 50px;"></li>
-              
-                
-            </ul>
-            <ul>
                 <li> <a href="PKK.html">Home</a></li>
                 <li><a href="TUGASPKK2.html">About</a></li>
-                <li><a href=""></a>Contact US</li>
-                <li><a href="">Menu</a></li>
+                <li><a href="PKK3.html">Contact US </a></li>
+                <li><a href="PKK4.html">Menu</a></li>
             </ul>
         </nav>
     </header>
 
     <section class="hero">
-        <img src="#" alt="">
         <div class="order-box">
-            <img src="https://portalmadura.com/wp-content/uploads/2019/08/Resep-Pentol-Mercon-1.jpg" alt=""><div></div>
-        <h2 style="font-family: monaco; font-size: large; text-align: justify;">Baso Mercon adalah salah satu jenis makanan khas Indonesia yang merupakan inovasi dari bakso tradisional, dengan ciri khas utama isian cabai rawit yang sangat pedas di dalam baksonya. Nama "mercon" diambil dari bahasa Jawa yang berarti petasan, menggambarkan sensasi pedas "meledak" yang dirasakan saat menggigit bakso ini. Makanan ini populer di kalangan pecinta makanan pedas dan menjadi ikon kuliner unik di berbagai daerah di Indonesia.</h2>
-                
-                
-        </div>
+            <img src="https://portalmadura.com/wp-content/uploads/2019/08/Resep-Pentol-Mercon-1.jpg" alt=""><div>
+                <h2 style="font-family: monaco; font-size: large; text-align: justify;">Baso Mercon adalah  salah satu jenis makanan khas Indonesia yang merupakan inovasi dari bakso tradisional, dengan ciri khas utama isian cabai rawit yang sangat pedas di dalam baksonya. Nama "mercon" diambil dari bahasa Jawa yang berarti petasan, menggambarkan sensasi pedas "meledak" yang dirasakan saat menggigit bakso ini. Makanan ini populer di kalangan pecinta makanan pedas dan menjadi ikon kuliner unik di berbagai daerah di Indonesia.</h2>
+            </div>
+        </div>  
     </section>
-   <div class="tepi"></div>
-    <section class="footer">
-        <p><strong></p>
-    </section>
-
 </body>
 </html>

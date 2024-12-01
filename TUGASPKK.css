@@ -157,5 +157,8 @@ header nav ul li a:hover{
     justify-content: center;   /* Pusatkan elemen secara vertikal */
     height: 100vh;
 }
-
+@fullscreen-bg and (max-width:720px){
+    .hero .order-box{
+      width:100vw;  
     }
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bakso Mern Meletup</title>
+    <link rel="icon" type="image/png" href="32x32_logo.png.png">
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 100%;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #480606;
+    color: #000000;
+    height: auto;
+    width: auto;
+
+}
+
+header {
+    background-color: #000000;
+    color: white;
+    background: none;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: medium;
+   
+    
+    
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    
+    
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family:monaco;
+    
+    
+}
+header nav ul li a:hover{
+    background-color:rgb(226, 18, 18) ;
+}
+.hero {
+    padding: 20px 0;
+}
+
+.hero h1 {
+    font-size: 20px;
+    max-width: 100%;
+    font-family: monaco;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.order-box {
+    display: inline-block;
+    text-decoration: none;
+    width: 350px;
+    height: 480px;
+    text-align: center;
+    background-color: rgb(162, 2, 2);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: rgb(255, 255, 255);
+    background: none;
+}
+.order-box  :hover{
+    box-shadow: #333;
+
+}
+
+.order-box img {
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    display: flex;
+    object-fit: cover;
+    margin-bottom: 10px;
+    
+}
+
+
+.order-btn {
+    padding: 10px 20px;
+    height: 50px;
+    width: 200px;
+    text-shadow: 10px black ;
+    background-color: #ff7f00;
+    color: white;
+    border: 2px solid;
+    border-radius: 20px;
+    font-size: 16px;
+    margin: 10px;
+    font-family: monaco;
+    cursor: pointer;
+    background: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5); 
+    filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5)); 
+}
+
+
+.order-btn:hover {
+    background-color: #d41919;
+}
+
+.hero1 {
+    text-align: center;
+    padding: 130px 0;
+}
+
+.hero1 h1 {
+    font-size: 45px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.fullscreen-bg video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  
+}
+.box{
+    display: flex;
+    border: 5px solid;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    flex: 1 0 50%;
+    color: black;
+    margin-top: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px;
+    
+}
+.box h2{
+    text-decoration: none;
+    color: white;
+}
+.box a :hover{
+    background-color: green;
+    background: none;
+    height: 100%;
+    width: 90px;
+    border-radius: 5px;
+
+
+}
+.box img{
+    display: flex;
+    height: 50px;
+    width: 50px;   
+}
+nav h1{
+    font-size: 40px;
+    font-family: monaco;
+    margin-top: 100px;
+    text-align: center;
+    justify-content: center;
+    scrollbar-darkshadow-color:red;
+    text-shadow: 3px 5px 20px;
+    color: rgb(237, 221, 221);
+    
+}
+
+    
+</style>
+<body>
+    
+    <div class="fullscreen-bg">
+        <video loop muted autoplay poster="poster.jpg" class="fullscreen-bg video">
+        <source src="bgsmoke.mp4" type="video/mp4">
+        </video>
+    </div>
+    <header>    
+        <nav>   
+            <ul>
+                <li> <a href="PKK.html">Home</a></li>
+                <li><a href="TUGASPKK2.html">About</a></li>
+                <li><a href="PKK3.html">Contact US</a></li>
+                <li><a href="PKK4.html">Menu</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <h1>SOSIAL MEDIA KAMI : D</h1>
+        <div class="box">
+            <a href="https://wa.link/p1jy4x"><img src="wa.png" alt=""></a>
+        </div>
+        <div class="box">
+            <a href=""><img src="ig.png" alt=""></a>
+        </div>
+        <div class="box">
+            <a href=""><img src="tiktok.png" alt=""></a>
+        </div>
+        </nav>
+    </header> 
+
+</html>

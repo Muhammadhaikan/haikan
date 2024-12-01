@@ -150,8 +150,10 @@ header nav ul li a:hover{
    
 }
 .hero {
-     display: grid;
-    position: relative; 
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     align-items: center;
     justify-content: center;
     flex: 1 0 50%;

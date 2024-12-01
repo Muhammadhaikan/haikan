@@ -150,15 +150,18 @@ header nav ul li a:hover{
    
 }
 .hero {
-        padding: 20px 0;           /* Jarak padding tetap */
+    padding: 20px 0;           /* Jarak padding tetap */
     display: flex;             /* Aktifkan Flexbox */
     flex-direction: column;    /* Susun elemen secara vertikal */
     align-items: center;       /* Pusatkan elemen secara horizontal */
     justify-content: center;   /* Pusatkan elemen secara vertikal */
     height: 100vh;
+
 }
 @fullscreen-bg and (max-width:720px){
     .hero .order-box{
-      width:100vw;  
+      width:100vw; 
     }
 }
+
+
